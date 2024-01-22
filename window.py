@@ -23,4 +23,6 @@ class Window:
         self.root.mainloop()
 
 
-
+if __name__ == "__main__":
+    window = Window(500, 500, "Tkinter")
+    window.run()
