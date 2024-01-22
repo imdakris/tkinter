@@ -32,7 +32,6 @@ class Window:
 
 if __name__ == "__main__":
     window = Window(500, 500, "Tkinter")
-    window.create_child(200,100)
-    
-    
+    window.create_child(200, 100)
+
     window.run()
